@@ -6,6 +6,13 @@ export const Wrapper = styled.div`
   align-items: center;
 `;
 
+export const DatePickerContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+  /* align-items: center; */
+`;
+
 export const MonthContainer = styled.div`
   width: 80%;
 `;

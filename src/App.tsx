@@ -16,6 +16,10 @@ export const App = () => {
       <NavBar />
       <Routes>
         <Route path="/" element={<Dashboard />} />
+        <Route path="/games" element={<Dashboard />} />
+        <Route path="/movies" element={<Dashboard />} />
+        <Route path="/shows" element={<Dashboard />} />
+        <Route path="/books" element={<Dashboard />} />
       </Routes>
     </Styled.Wrapper>
   );

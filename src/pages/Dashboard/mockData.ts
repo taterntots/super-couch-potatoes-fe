@@ -5,6 +5,7 @@ export interface IMockMedia {
   date_completed: string;
   type: "game" | "movie" | "show" | "book";
   first_time: boolean;
+  img_URL: string;
   created_at: string;
   updated_at: string;
 }
@@ -22,6 +23,7 @@ export const mockMedia: IMockMedia[] = [
     date_completed: "2017-01-03T00:00:00.000Z",
     type: "game",
     first_time: true,
+    img_URL: "",
     created_at: "1640727470",
     updated_at: "1640727470",
   },
@@ -32,6 +34,7 @@ export const mockMedia: IMockMedia[] = [
     date_completed: "2018-02-07T00:00:00.000Z",
     type: "game",
     first_time: true,
+    img_URL: "",
     created_at: "1640183746",
     updated_at: "1640183746",
   },
@@ -42,6 +45,7 @@ export const mockMedia: IMockMedia[] = [
     date_completed: "2018-02-19T00:00:00.000Z",
     type: "game",
     first_time: false,
+    img_URL: "",
     created_at: "1510727470",
     updated_at: "1510727470",
   },
@@ -52,6 +56,7 @@ export const mockMedia: IMockMedia[] = [
     date_completed: "2018-03-10T00:00:00.000Z",
     type: "game",
     first_time: false,
+    img_URL: "",
     created_at: "1316727470",
     updated_at: "1316727470",
   },
@@ -62,6 +67,29 @@ export const mockMedia: IMockMedia[] = [
     date_completed: "2018-04-20T00:00:00.000Z",
     type: "game",
     first_time: true,
+    img_URL: "",
+    created_at: "1316727470",
+    updated_at: "1316727470",
+  },
+  {
+    id: "6",
+    title: "Die Hard",
+    rating: 3,
+    date_completed: "2018-04-20T00:00:00.000Z",
+    type: "movie",
+    first_time: true,
+    img_URL: "",
+    created_at: "1316727470",
+    updated_at: "1316727470",
+  },
+  {
+    id: "7",
+    title: "The Hobbit",
+    rating: 2,
+    date_completed: "2018-04-20T00:00:00.000Z",
+    type: "book",
+    first_time: true,
+    img_URL: "",
     created_at: "1316727470",
     updated_at: "1316727470",
   },
