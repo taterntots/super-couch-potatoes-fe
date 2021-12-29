@@ -7,7 +7,14 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+`;
+
+export const MonthContainer = styled.div`
+  width: 80%;
+`;
+
+export const MonthText = styled.h3`
+  text-align: center;
 `;
