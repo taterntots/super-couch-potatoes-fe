@@ -3,6 +3,8 @@ export interface IMockMedia {
   title: string;
   rating: number;
   date_completed: string;
+  type: "game" | "movie" | "show" | "book";
+  first_time: boolean;
   created_at: string;
   updated_at: string;
 }
@@ -18,6 +20,8 @@ export const mockMedia: IMockMedia[] = [
     title: "The Legend of Zelda: Breath of the Wild",
     rating: 2,
     date_completed: "2017-01-03T00:00:00.000Z",
+    type: "game",
+    first_time: true,
     created_at: "1640727470",
     updated_at: "1640727470",
   },
@@ -26,6 +30,8 @@ export const mockMedia: IMockMedia[] = [
     title: "Hollow Knight",
     rating: 3,
     date_completed: "2018-02-07T00:00:00.000Z",
+    type: "game",
+    first_time: true,
     created_at: "1640183746",
     updated_at: "1640183746",
   },
@@ -34,6 +40,8 @@ export const mockMedia: IMockMedia[] = [
     title: "Celeste",
     rating: 3,
     date_completed: "2018-02-19T00:00:00.000Z",
+    type: "game",
+    first_time: false,
     created_at: "1510727470",
     updated_at: "1510727470",
   },
@@ -42,6 +50,8 @@ export const mockMedia: IMockMedia[] = [
     title: "Crypt of the Necrodancer",
     rating: 2,
     date_completed: "2018-03-10T00:00:00.000Z",
+    type: "game",
+    first_time: false,
     created_at: "1316727470",
     updated_at: "1316727470",
   },
@@ -50,6 +60,8 @@ export const mockMedia: IMockMedia[] = [
     title: "Hellow Kitty Kruisers",
     rating: 1,
     date_completed: "2018-04-20T00:00:00.000Z",
+    type: "game",
+    first_time: true,
     created_at: "1316727470",
     updated_at: "1316727470",
   },

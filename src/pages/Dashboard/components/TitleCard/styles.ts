@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { colors } from "../../../../styles";
+import { colors, ellipsisText } from "../../../../styles";
 
 export const Wrapper = styled.div`
   background-color: ${colors.grey[700]};
@@ -13,10 +13,8 @@ export const Wrapper = styled.div`
 `;
 
 export const CardText = styled.p`
+  ${ellipsisText}
   padding-right: 20px;
   width: 100%;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
   margin: 0;
 `;
